@@ -1,0 +1,194 @@
+/*============= Tablet Layout: 768px ============= */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+.navbar-right {
+  margin: -20px -20px 0 0;
+}
+ul.list  {
+	text-align:center !important;width: 100%;
+}
+
+.navbar-nav>li>a {
+  padding-right: 5px !important;padding-left: 5px !important;font-size: 13px !important;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	margin-top: -7px
+}
+
+.read-more-welcome {
+    width: 47%;}
+
+.read-less {
+   width: 47%;
+}
+
+.or {
+	width: 6%;
+}
+
+.triangle-topright {
+border-top: 0px solid #3e4b53;border-left: 0px solid transparent;
+}
+
+/*============= Wide Mobile Layout: 480px =============*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.footer-info-contact{
+	width:100%;float: left;text-align: center !important;padding-left:100px;
+}
+.topbar .col-md-6{
+	float:left;
+	width:50%;
+}
+.topbar .col-md-6 ul.list{width:100%;text-align:left !important;}
+}
+.sb-search-input{width:100%;}
+.footer-bottom .col-md-6{
+	width:50%;
+	float:left;
+}
+.footer-bottom .col-md-6 ul.list{text-align:left !important;}
+.page-title-bar .page-title .col-md-6 {
+  float: left;
+  width: 50%;
+}
+.service-section .col-md-4 {
+  float: left;
+  width: 33%;
+}
+.how-it-works .col-md-3 {
+  float: left;
+  width: 50%;
+}
+.how-it-works .col-md-3::after {
+  left: 77%;
+}
+.how-it-works .col-md-3:nth-child(3):after{content:none;}
+.col-md-4.contact-page-form {
+  float: left;
+  width: 50%;
+}
+.col-md-4.contact-details {
+  float: left;
+  width: 50%;
+}
+.footer-content .col-md-3, .footer-content  .col-md-2, .footer-content  .col-md-4 {
+  float: left;
+  width: 50%;
+}
+.footer-content .col-md-3:nth-child(3){
+	float:right;
+	margin-top:12px;
+}
+}
+
+
+
+/*=============	Mobile Layout: 320px =============*/
+
+@media only screen and (max-width: 767px) {
+.topbar .col-md-6{width:100%;}
+.topbar .email-search{text-align:center; margin:30px 0 0 0;}
+.contact-email {margin: 0 auto;overflow: hidden;padding-bottom:4px;text-align: center;width: 100%; float:left;font-size: 16px;right:20px;}
+.navbar-toggle {margin-top: 17px;}
+.search-bar{
+	display: none;
+}
+.sb-search-input{width:100%;}
+ul.list  {
+	text-align:center !important;width: 100%;
+}
+
+.banner-heading{
+	font-size: 28px;
+
+}
+
+.banner-heading-sub {
+	font-size: 17px;
+} 
+
+.read-more-welcome {
+  
+  width: 45%;}
+
+  .read-less {
+  
+  width: 45%;
+}
+
+.or {
+	width: 10%;font-size: 16px;
+
+}
+
+.footer-heading{
+	text-align: center;
+}
+
+.about-rinse-text{
+	text-align: center;
+}
+
+.footer-logo{
+	text-align: center;
+}
+.footer-bottom .col-md-6{
+	width:100%;
+}
+.footer-bottom .col-md-6 p, .footer-bottom .col-md-6 ul.list{
+	text-align:center !important;
+}
+.footer-bottom .col-md-6 ul{
+	margin:0 0 10px 0;
+	padding:0;
+}
+
+ul.social{
+	text-align: center;margin-bottom: 50px;border-bottom: 1px solid #343131;padding-bottom: 30px;padding-top: 20px
+}
+
+form{
+	text-align: center;
+}
+
+.footer-info-contact{
+width:100%;float: left;text-align: center !important;border-bottom: 1px solid #343131; margin-bottom: 32px;padding-bottom: 20px;
+}
+
+.about-rinse-text-bottom{
+border-bottom: 1px solid #343131;padding-bottom: 25px;
+}
+
+.location-img {
+  float: left;
+ 
+}
+
+.triangle-topright {border-top: 0px solid #3e4b53; border-left: 0px solid transparent;
+}
+
+img.feature-img-1{ display: block; margin-left: auto; margin-right: auto;
+}
+img{
+	max-width: 100%;
+}
+.page-title-bar .page-title .col-md-6 h1 {
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.page-title-bar .page-title .col-md-6 p {
+  padding: 0 0 20px 0;
+  text-align: center;
+  width: 100%;
+}
+.how-it-works .col-md-3::after {
+  content: none;
+}
+}
